@@ -1,12 +1,12 @@
 {
-  "name": "treeshakable-repro",
+  "name": "treeshakable-bundler-examples",
   "version": "1.0.0",
-  "description": "Trying out treeshaking across different bundlers",
+  "description": "A collection of treeshaking examples  different bundlers",
   "module": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:esbuild": "node scripts/withESbuild.js",
-    "build:webpack": "node scripts/withWebpack",
+    "build:webpack": "node scripts/withWebpack.js",
     "build:all": "rm -rf dist && yarn build:esbuild && yarn build:webpack"
   },
   "author": "Aakansha Doshi",

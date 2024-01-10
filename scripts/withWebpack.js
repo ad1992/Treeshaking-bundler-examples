@@ -24,8 +24,8 @@ const config = {
 };
 
 const fileNames = [
-  "./examples/pureJSWithNoDeps/index.js",
-  "./examples/withNonESMDeps/index.js",
+  "../examples/pureJSWithNoDeps/index.js",
+  "../examples/withNonESMDeps/index.js",
 ];
 for (file of fileNames) {
   const webpackConfig = {
