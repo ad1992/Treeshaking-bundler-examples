@@ -5,8 +5,8 @@
   "module": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:esbuild": "node buildESM.js",
-    "build:webpack": "node webpack.config.js",
+    "build:esbuild": "node scripts/withESbuild.js",
+    "build:webpack": "node scripts/withWebpack",
     "build:all": "rm -rf dist && yarn build:esbuild && yarn build:webpack"
   },
   "author": "Aakansha Doshi",
